@@ -1,5 +1,5 @@
 import axios from "axios";
-const URL = '/src/assets/data.json';
+const URL = '/data.json';
 export const API = {
     async allCountries() {
         return (await axios.get(URL)).data
